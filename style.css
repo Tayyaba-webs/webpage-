@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+nav > .a {
+    display: flex;
+}
+a > img {
+    width: 100%;
+}
+.b > a {
+    margin: 20px 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.b > a:hover {
+    color: rgb(170, 179, 2);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+    background-color: black;
+    text-decoration: underline;
+    margin: 10px;
+}
+.c > img {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.d {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    cursor: pointer;
+    color: orangered;
+    padding: 6rem;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+.d > p {
+    color: white;
+}
+.d:hover {
+    box-shadow: 0px 0px 20px rgb(170, 179, 2);
+}
+.e {
+    text-align: center;
+    padding: 10%;
+}
+.e > h1 {
+    font-size: 2rem;
+}
+
+.ee {
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   padding: 70px 0px;
+   width: 100%;
+}
+.ee > img {
+    width: 30%;
+}
+.f {
+    text-align: center;
+    padding: -20%;
+
+}
+.g {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.g > .h {
+    width: 320px;
+    margin: 2rem;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.h > img {
+    margin-bottom: 2rem;
+    width: 275px;
+}
+.g > .h:hover {
+    border: none;
+    box-shadow: 0px 0px 10px black;
+}
+.g > .h > button {
+    margin-top: 2rem;
+    border: 2px solid black;
+    background-color: rgb(170, 179, 2);
+    color: white;
+    padding: 3px 8px;
+    font-size: 2rem;
+}
+.g > .h > button:hover {
+    border: none;
+    box-shadow: black;
+}
+.hh {
+    margin-top: 2rem;
+}
+.i {
+    width: 100%;
+    padding: 8%;
+    margin: 2px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(170, 179, 2);
+    color: white;
+}
+.j {
+    width: 180px;
+    margin: 2rem;
+}
+.i > .j > h1 {
+    font-size: 70px;
+}
+.z {
+    background-color: rgba(0, 0, 0, 0.819);
+    padding: 60px 0px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.zz {
+    width: 200px;
+}
+.zz , h3 {
+    width: 15%;
+    color: white;
+}
+.zz , p {
+    color: grey;
+}
+.zzz {
+    padding: 40px 0px;
+}
+.zzz > p > i {
+    color: red;
+    font-size: 2rem;
+}
+.zz > i {
+    font-size: 2rem;
+}
+.zzz > h1 {
+    color: white;
+}
+
+.menu , i {
+    display: none;
+    font-size: 2rem;
+}
+@media (max-width: 746px) {
+    .menu , i  {
+        display: block;
+    }
+    .b > a {
+        display: none;
+    }
+    .d {
+        width: 300px;
+        padding: 2rem;
+    }
+}
